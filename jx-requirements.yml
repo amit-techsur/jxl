@@ -3,6 +3,7 @@ cluster:
   gitName: github
   gitServer: https://github.com
   namespace: jx
+  provider: kubernetes
 environments:
 - key: dev
 - key: staging
