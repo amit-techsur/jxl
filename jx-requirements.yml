@@ -4,6 +4,10 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: kubernetes
+  clusterName: ovh1
+  devEnvApprovers:
+  - amit-techsur
+  environmentGitOwner: amit-techsur
 environments:
 - key: dev
 - key: staging
